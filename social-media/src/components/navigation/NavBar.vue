@@ -6,10 +6,8 @@ import { RouterLink } from 'vue-router';
   <aside>
     <RouterLink to="">Home</RouterLink>
     <RouterLink to="">Feed</RouterLink>
-    <RouterLink to="">Feed</RouterLink>
-    <RouterLink to="">Feed</RouterLink>
-    <RouterLink to="">Privacy</RouterLink>
-    <RouterLink to="">Account</RouterLink>
-    <RouterLink to="">Seetings</RouterLink>
+    <RouterLink to="">Add</RouterLink>
+    <RouterLink to="community">Community</RouterLink>
+    <RouterLink to="">Trend</RouterLink>
   </aside>
 </template>

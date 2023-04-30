@@ -22,6 +22,7 @@ const router = createRouter({
       name: 'login',
       component: () => import('../views/LoginView.vue')
     },
+    // NavBar
     {
       path: '/home',
       name: 'home',
@@ -36,6 +37,62 @@ const router = createRouter({
       path: '/community/:communityId',
       name: 'communityId',
       component: () => import('../views/CommunitySingleView.vue')
+    },
+    {
+      path: '/feed',
+      name: 'feed',
+      component: () => import('../views/FeedView.vue')
+    },
+    {
+      path: '/add',
+      name: 'add',
+      component: () => import('../views/AddView.vue')
+    },
+    {
+      path: '/add/article',
+      name: 'addArticle',
+      component: () => import('../views/AddArticleView.vue')
+    },
+    {
+      path: '/add/image',
+      name: 'addImage',
+      component: () => import('../views/AddImageView.vue')
+    },
+    {
+      path: '/add/video',
+      name: 'addVideo',
+      component: () => import('../views/AddVideoView.vue')
+    },
+    {
+      path: '/trends',
+      name: 'trends',
+      component: () => import('../views/TrendsView.vue')
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: () => import('../views/NewsView.vue')
+    },
+    // SideBar
+    {
+      path: '/messages',
+      name: 'messages',
+      component: () => import('../views/MessagesView.vue')
+    },
+    {
+      path: '/account',
+      name: 'account',
+      component: () => import('../views/AccountView.vue')
+    },
+    {
+      path: '/settings',
+      name: 'setting',
+      component: () => import('../views/SettingsView.vue')
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: () => import('../views/AboutView.vue')
     }
   ]
 })

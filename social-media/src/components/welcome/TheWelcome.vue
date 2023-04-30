@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HomeButtons from '@/components/HomeButtons.vue';
+import { RouterLink } from 'vue-router';
 </script>
 
 <template>
@@ -7,6 +7,8 @@ import HomeButtons from '@/components/HomeButtons.vue';
     <h1>Welcome to this social media</h1>
     <p>This is some interesting text whose purpose I do not know </p>
 
-    <HomeButtons />
+    <RouterLink to="/signup">Sign Up</RouterLink>
+    <RouterLink to="/home">Experiment</RouterLink> 
+    <RouterLink to="/login">Login</RouterLink>
   </main>
 </template>

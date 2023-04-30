@@ -3,11 +3,12 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <aside>
-    <RouterLink to="">Home</RouterLink>
-    <RouterLink to="">Feed</RouterLink>
-    <RouterLink to="">Add</RouterLink>
+  <nav>
+    <RouterLink to="home">Home</RouterLink>
+    <RouterLink to="feed">Feed</RouterLink>
+    <RouterLink to="add">Add</RouterLink>
     <RouterLink to="community">Community</RouterLink>
-    <RouterLink to="">Trend</RouterLink>
-  </aside>
+    <RouterLink to="trends">Trends</RouterLink>
+    <RouterLink to="news">News</RouterLink>
+  </nav>
 </template>

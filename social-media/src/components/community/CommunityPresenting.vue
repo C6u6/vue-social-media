@@ -14,14 +14,14 @@ const exampleOfFetchedDataa =
   quantOfMembers: 25000,
   monthlyActivity: 'high',
 };
-function seeThisCommunityInDepth(IdOfTheCommunity) {
+function seeThisCommunityInDepth(IdOfTheCommunity: string) {
   router.push({ name: 'communityId', params: { communityId: props.id } });
 }; 
 // Fetch the data through id
 
 </script>
 <template>
-  <div @click='() => seeThisCommunityInDepth()'>
+  <RouterLink :to="`/community/${props.id}`">
     <!--Header-->
     <section>
       <img src='' alt='Community Logo' />
@@ -42,5 +42,6 @@ function seeThisCommunityInDepth(IdOfTheCommunity) {
       <span>{{ exampleOfFetchedDataa.monthlyActivity }}</span>
       <button>Join</button>
     </section>
-  </div>
+  
+  </RouterLink>
 </template>

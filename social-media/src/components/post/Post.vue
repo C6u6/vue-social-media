@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import ContentOfAPost from './ContentOfAPost.vue';
 import ImpressionsAboutThePost from './ImpressionsAboutThePost.vue';
+import AllComentsAboutThePost from './AllComentsAboutThePost.vue';
 
 </script>
 
@@ -15,7 +16,7 @@ import ImpressionsAboutThePost from './ImpressionsAboutThePost.vue';
       </section>
     </section>
     <section>
-      <p role="button">...</p>
+      <button>...</button>
     </section>
     <section>
       Title/Description of the following content(Image/Video/Anything like this)

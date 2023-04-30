@@ -4,12 +4,9 @@ import { RouterLink } from 'vue-router';
 
 <template>
   <aside>
-    <RouterLink to="">Home</RouterLink>
-    <RouterLink to="">Feed</RouterLink>
-    <RouterLink to="">Feed</RouterLink>
-    <RouterLink to="">Feed</RouterLink>
-    <RouterLink to="">Privacy</RouterLink>
-    <RouterLink to="">Account</RouterLink>
-    <RouterLink to="">Seetings</RouterLink>
+    <RouterLink to="messages">Messages</RouterLink>
+    <RouterLink to="account">Account</RouterLink>
+    <RouterLink to="settings">Settings</RouterLink>
+    <RouterLink to="about">About</RouterLink>
   </aside>
 </template>
